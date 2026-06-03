@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.71.1](https://github.com/aquasecurity/trivy/compare/v0.71.0...v0.71.1) (2026-06-03)
+
+
+### Bug Fixes
+
+* **image:** deterministic OS package deduplication for images with embedded SBOMs ([#10777](https://github.com/aquasecurity/trivy/issues/10777)) ([888911b](https://github.com/aquasecurity/trivy/commit/888911bcd3d0fdcd0cccbb2d45b9cb4cc267d926))
+* **spdx:** guard against nil root component in SPDX marshaler ([#10771](https://github.com/aquasecurity/trivy/issues/10771)) ([c0654e1](https://github.com/aquasecurity/trivy/commit/c0654e17eb27a222bada78e22384c86039430d94))
+
 ## [0.71.0](https://github.com/aquasecurity/trivy/compare/v0.70.0...v0.71.0) (2026-06-01)
 
 
